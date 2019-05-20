@@ -1,0 +1,100 @@
+body{
+	font-family: roboto;
+}
+ul{
+	list-style-type: none;
+}
+
+.button{
+	font-family: roboto;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #000000;
+	background-color: #eeeeee;
+	width: 260px;
+	height: 50px;
+	border: none;
+}
+
+.visually-hidden{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.site-navigation li{
+	display: inline-block;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.site-navigation li:hover {
+color: #fb565a;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+text-transform: uppercase;
+}
+
+.customers ul li{
+	display: inline-block;
+}
+
+.service-item-1 .button{
+	width: 160px;
+   	height: 50px;
+	background: #fb565a;
+	border-color: black;
+	font-family: inherit;
+}
+
+.service-item-2 .button{
+	background: #00ca74;
+}
+
+.service-item-3 .button{
+	background: #efc84a;
+}
+
+.service-item-1 p{
+	width: 238px;
+	height: 40px;
+	color: #283136;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.service-item-2 p{
+	width: 239px;
+	height: 40px;
+	color: #283136;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.service-item-3 p{
+	width: 213px;
+	height: 40px;
+	color: #283136;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.service-list li{
+	display: inline-block;
+}
