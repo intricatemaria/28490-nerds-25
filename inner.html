@@ -25,75 +25,78 @@
 	<h1>Магазин готовых шаблонов</h1>
 	<form class="filter" method="get" action="">
 		<fieldset>
-			
-		</fieldset>
-		<legend>Сетка:</legend>
-			<ul class="net">
+			<legend>Сетка:</legend>
+				<ul class="net">
+					<li class="net-item">
+						<label>
+							<input type="radio" name="adaptive">
+						Адаптивная
+						</label>
+					</li>
 				<li class="net-item">
 					<label>
 						<input type="radio" name="adaptive">
-					Адаптивная
+						Фиксированная
 					</label>
 				</li>
-			<li class="net-item">
-				<label>
-					<input type="radio" name="adaptive">
-					Фиксированная
-				</label>
-			</li>
-			<li class="net-item">
-				<label>
-					<input type="radio" name="adaptive">
-					Резиновая
+				<li class="net-item">
+					<label>
+						<input type="radio" name="adaptive">
+						Резиновая
+						</label>
+					</li>
+			</ul>
+			<legend>Особенности:</legend>
+			<ul class="properties">
+				<li class="properties-item">
+					<label>
+						<input type="checkbox" name="properties">Слайдер
 					</label>
 				</li>
-		</ul>
-		<legend>Особенности:</legend>
-		<ul class="properties">
-			<li class="properties-item">
-				<label>
-					<input type="checkbox" name="properties">Слайдер
-				</label>
-			</li>
-			<li class="properties-item">
-				<label>
-					<input type="checkbox" name="properties">Блок преимуществ
-				</label>
-			</li>
-			<li class="properties-item">
-				<label>
-					<input type="checkbox" name="properties">Новости
-				</label>
-			</li>
-			<li class="properties-item">
-				<label>
-					<input type="checkbox" name="properties">Галерея
-				</label>
-			</li>	
-			<li class="properties-item">
-				<label>
-					<input type="checkbox" name="properties">Корзина
-				</label>
-			</li>											
-		</ul>
-		<button class="button">Показать</button>
+				<li class="properties-item">
+					<label>
+						<input type="checkbox" name="properties">Блок преимуществ
+					</label>
+				</li>
+				<li class="properties-item">
+					<label>
+						<input type="checkbox" name="properties">Новости
+					</label>
+				</li>
+				<li class="properties-item">
+					<label>
+						<input type="checkbox" name="properties">Галерея
+					</label>
+				</li>	
+				<li class="properties-item">
+					<label>
+						<input type="checkbox" name="properties">Корзина
+					</label>
+				</li>											
+			</ul>
+		</fieldset>
+		<button class="grey">Показать</button>
 	</section>
-	<section class="layouts">
-		<ul class="works">
-			<a class="layouts-item" href=""><img src="img/img-sedona.jpg" alt="sedona"></a>
-			<a class="layouts-item" href=""><img src="img/img-pink.jpg" alt="pink"></a>
-			<a class="layouts-item" href=""><img src="img/img-barbershop.jpg" alt="borodiski"></a>
-			<a class="layouts-item" href=""><img src="img/img-mishka.jpg" alt="mishka"></a>
-			<a class="layouts-item" href=""><img src="img/img-aplus.jpg" alt="a+"></a>
-			<a class="layouts-item" href=""><img src="img/img-kvast.jpg" alt="kvast"></a>			
+	<section class="works">
+		<ul>
+			<li class="work">
+				<a class="layouts-item" href=""><img src="img/img-sedona.jpg" alt="sedona"></a>
+				<span class="sedona">
+					<p class="big">Sedona</p>
+					<p>Информационный сайт для туристов</p>
+					<button class="red">9 900 руб.</button>
+				</span>
+			</li>
 		</ul>
-
-		<nav>
-			<a class="button" href="">1</a>
-			<a class="button" href="">2</a>
-			<a class="button" href="">Следующая</a>
-		</nav>
-
+		
+		<a class="layouts-item" href=""><img src="img/img-pink.jpg" alt="pink"></a>
+		<a class="layouts-item" href=""><img src="img/img-barbershop.jpg" alt="borodiski"></a>
+		<a class="layouts-item" href=""><img src="img/img-mishka.jpg" alt="mishka"></a>
+		<a class="layouts-item" href=""><img src="img/img-aplus.jpg" alt="a+"></a>
+		<a class="layouts-item" href=""><img src="img/img-kvast.jpg" alt="kvast"></a>
+		<a class="button" href="">1</a>
+		<a class="button" href="">2</a>
+		<a class="button" href="">Следующая</a>
 	</section>
 	<footer class="main-footer">
 		<h2 class="visually-hidden">Контакты</h2>
