@@ -80,25 +80,73 @@
 	<section class="works">
 		<ul>
 			<li class="work">
-				<a class="layouts-item" href=""><img src="img/img-sedona.jpg" alt="sedona"></a>
-				<span class="sedona">
-					<p class="big">Sedona</p>
-					<p>Информационный сайт для туристов</p>
-					<button class="red">9 900 руб.</button>
-				</span>
+				<a class="layouts-item" href="">
+					<img class="maket" src="img/img-sedona.jpg" alt="sedona">
+					<span class="pop">
+						<p class="big">Sedona</p>
+						<p>Информационный сайт для туристов</p>
+						<a class="red">9 900 руб.</a>					
+					</span>
+				</a>
 			</li>
-		</ul>
-		
-		<a class="layouts-item" href=""><img src="img/img-pink.jpg" alt="pink"></a>
-		<a class="layouts-item" href=""><img src="img/img-barbershop.jpg" alt="borodiski"></a>
-		<a class="layouts-item" href=""><img src="img/img-mishka.jpg" alt="mishka"></a>
-		<a class="layouts-item" href=""><img src="img/img-aplus.jpg" alt="a+"></a>
-		<a class="layouts-item" href=""><img src="img/img-kvast.jpg" alt="kvast"></a>
-		<a class="button" href="">1</a>
-		<a class="button" href="">2</a>
-		<a class="button" href="">Следующая</a>
+			<li class="work">
+				<a class="layouts-item" href="">
+					<img class="maket" src="img/img-pink.jpg" alt="pink">
+					<span class="pop">
+						<p class="big">Pink App</p>
+						<p>Продуктовый лендинг приложения для iOS и Android</p>
+						<a class="red">9 900 руб.</a>					
+					</span>
+				</a>
+			</li>
+			<li class="work">
+				<a class="layouts-item" href="">
+					<img class="maket" src="img/img-barbershop.jpg" alt="borodiski">
+					<span class="pop">
+						<p class="big">Barbershop</p>
+						<p>Сайт салона красоты. Для мужчин, да.</p>
+						<a class="red">9 900 руб.</a>
+					</span>
+				</a>
+			</li>
+			<li class="work">
+				<a class="layouts-item" href="">
+					<img class="maket" src="img/img-mishka.jpg" alt="mishka">
+					<span class="pop">
+						<p class="big">MISHKA</p>
+						<p>Интернет-магазин вязаных игрушек</p>
+						<a class="red">9 900 руб.</a>	
+					</span>
+				</a>
+			</li>
+			<li class="work">
+				<a class="layouts-item" href="">
+					<img class="maket" src="img/img-aplus.jpg" alt="a+">
+					<span class="pop">
+						<p class="big">A Plus</p>
+						<p>Лендинг курсов повышения квалификации</p>
+						<a class="red">9 900 руб.</a>	
+					</span>
+				</a>
+			</li>
+			<li class="work">
+				<a class="layouts-item" href="">
+					<img class="maket" src="img/img-kvast.jpg" alt="kvast">
+					<span class="pop">
+						<p class="big">КВАСТ</p>
+						<p>Промо-сайт производителя крафтового кваса</p>
+						<a class="red">9 900 руб.</a>	
+					</span>
+				</a>
+			</li>
+		</ul>						
+		<nav>
+			<a class="button" href="">1</a>
+			<a class="button" href="">2</a>
+			<a class="button" href="">Следующая</a>			
+		</nav>
 	</section>
-	<footer class="main-footer">
+	
 		<h2 class="visually-hidden">Контакты</h2>
 		<img class="map" src="" alt="map">
 		<div class="footer-adress">
@@ -106,12 +154,25 @@
 			<address>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
 			<address>тел. +7 (812) 275-75-75</address>
 			<a class="button" href="">Напишите нам</a>
+			<h2>Напишите нам</h2>
+			<div class="form">
+				<form method="post" action="/action_page.php">
+				    <label for="fname">Ваше имя</label>
+				    <input type="text" id="fname" name="firstname" placeholder="Имя Фамилия">
+				    <label for="letter">Текст письма</label>
+				    <input type="text" id="letter" name="letter" placeholder="В свободной форме">
+				    <label for="e-mail">Ваш e-mail</label>
+				    <input type="text" id="e-mail" name="e-mail" placeholder="email@example.com">
+				    <input type="submit" value="Отправить">
+				</form>
+			</div>
 		</div>
+	<footer class="main-footer">
 		<div class="contacts">
 			<ul>
-				<li><a class="social-network" href="">VK</a></li>  
-				<li><a class="social-network" href="">FB</a></li>  
-				<li><a class="social-network" href="">Instagram</a></li> 
+				<li><a class="social-network" href=""><img src="img/vk-icon.svg"></a></li>  
+				<li><a class="social-network" href=""><img src="img/fb-icon.svg"></a></li>  
+				<li><a class="social-network" href=""><img src="img/insta-icon.svg"></a></li> 
 			</ul>
 			<p>Давайте дружить, это выгодно!</p>
 			<p>Скидка 10% для друзей из социальных сетей.</p>
