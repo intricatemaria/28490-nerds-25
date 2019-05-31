@@ -1,32 +1,113 @@
 body{
-	font-family: roboto;
+	margin: 0;
+	min-width: 1440px;
+	min-height: 1925px;
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 400px;
+	line-height: 24px;
+	color: #000000;
+	background-color: #ffffff;
 }
+
+a{
+	text-decoration: none;
+}
+
 ul{
 	list-style-type: none;
 }
 
-.red{
-	background: #fb565a;
-	font-size: 16px;
-	font-family: inherit;
-	border: 0;
+.main-header{
+	width: 1440px;
+	height: 545px;
+	background-color: #eeeeee;
 }
 
-p{
-	color: #283136;
-	font-family: Roboto;
-	font-size: 16px;
+.main-navigation{
+	display: flex;
+		margin-left: 140px;
+}
+
+.main-header-logo img{
+	margin-top: 49px;
+	margin-right: 202px;
+}
+
+.main-header-logo img:active{
+	opacity: 0.2;
+
+}
+
+.site-navigation{
+	margin-top: 83px;
+}
+
+.site-navigation li{
+	display: inline-block;
+	color: #000000;
+	background-color: #eeeeee;
+	font: inherit;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin-right: 46px; 	
+}
+
+.site-navigation li:hover {
+	color: #fb565a;
+
+}
+
+.site-navigation li:active{
+	opacity: 0.2;
+
+}
+
+.cart-link{
+	margin-right: 140px;
+	margin-top: 83px;
+	margin-left: 286px;
+	color: #000000;
+	font: inherit;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.title{
+	margin-left: 140px;
+	width: 376px;
+height: 106px;
+}
+
+.title h2{
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 55px;
+}
+
+.slides-switches{
+	display: flex;
 }
 
 .button{
-	font-family: roboto;
-	font-size: 16px;
-	text-transform: uppercase;
-	color: #000000;
-	background-color: #eeeeee;
-	width: 260px;
-	height: 50px;
+	color: #ffffff;
+	font: inherit;
+	line-height: 18px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #fb565a;
 	border: none;
+	text-transform: uppercase;
+}
+
+.button:hover{
+	background-color: #e74246;
+}
+
+.button:active{
+	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+	background-color: #d7373b;
+		opacity: 0.3;
 }
 
 .visually-hidden{
@@ -40,29 +121,30 @@ p{
 	overflow: hidden;
 }
 
-.site-navigation li{
-	display: inline-block;
-	color: #000000;
-	font-family: Roboto;
-	font-size: 16px;
-	text-transform: uppercase;
+.service-list{
+	display: flex;
+	margin: 0;
+	padding: 0;
+
 }
 
-.site-navigation li:hover {
-color: #fb565a;
-font-family: Roboto;
-font-size: 16px;
+.service-list li{
+	margin-top: 80px;
+	margin-right: 162px;
 }
 
-.customers ul li{
-	display: inline-block;
+.service-item-1{
+	width: 300px;
+}
+
+.service-item-2{
+	width: 300px;
 }
 
 .service-item-1 .button{
 	width: 160px;
    	height: 50px;
 	background: #fb565a;
-	border-color: black;
 	font-family: inherit;
 }
 
@@ -74,55 +156,60 @@ font-size: 16px;
 	background: #efc84a;
 }
 
-.service-item-1 p{
-	width: 238px;
-	height: 40px;
-	color: #283136;
-	font-family: Roboto;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
+.block{
+	display: flex;
+	margin-top: 122px;
 }
 
-.service-item-2 p{
-	width: 239px;
-	height: 40px;
-	color: #283136;
-	font-family: Roboto;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
+.description{
+	width: 650px;
 }
 
-.service-item-3 p{
-	width: 213px;
-	height: 40px;
-	color: #283136;
-	font-family: Roboto;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-}
-.service-list li{
+.features-item{
 	display: inline-block;
 }
 
-span{
-	display: none;
-	position:absolute;
-    bottom:0;
-    width: 360px;
-	height: 231px;
-	background-color: #eeeeee;
+.percents{
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 10.06px;
 }
 
-.work{
-	position: relative;
-	width: 360px;
-	height: 576px;
-	border: 1px solid rgba(0, 1, 1, 0.1); 
+.customers ul li{
+	opacity: 0.2;
+	display: inline-block;
+}
 
+.customers ul li:hover{
+	opacity: 1;
 }
-.work:hover .pop{
-	display: block;
+
+.customers ul li:active{
+	opacity: 0.2;
 }
+
+.contacts{
+	width: 1440px;
+	height: 416px;
+	background-image: url("img/background-map.jpeg");
+}
+
+.footer-adress{
+	background-image: url(img/background-map.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.main-footer{
+	display: flex;
+}
+
+.main-footer h2{
+	font-size: 36px;
+}
+
+.social-network{
+	background-image: url('img/icon-vk.svg');
+}
+
+
