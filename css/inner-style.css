@@ -1,7 +1,97 @@
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+span{
+	display: none;
+	position:absolute;
+    bottom:0;
+    width: 360px;
+	height: 231px;
+	background-color: #eeeeee;
+}
+
+.main-header{
+	width: 1440px;
+	height: 355px;
+	background-color: #eeeeee;
+}
+
+.main-navigation{
+	display: flex;
+		margin-left: 140px;
+}
+
+.main-header-logo img{
+	margin-top: 49px;
+	margin-right: 202px;
+}
+
+.main-header-logo img:active{
+	opacity: 0.2;
+
+}
+
+.site-navigation{
+	margin-top: 83px;
+}
+
+.site-navigation li{
+	display: inline-block;
+	color: #000000;
+	background-color: #eeeeee;
+	font: inherit;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin-right: 46px; 	
+}
+
+.site-navigation li:hover {
+	color: #fb565a;
+
+}
+
+.site-navigation li:active{
+	opacity: 0.2;
+
+}
+
+.cart-link{
+	margin-right: 140px;
+	margin-top: 83px;
+	margin-left: 286px;
+	color: #000000;
+	font: inherit;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.main-header h1{
+	font: inherit;
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 55px;
+}
+.center-block{
+	display: flex;
+}
+
 .title h2{
 	font-size: 55px;
 	font-weight: 500;
 	line-height: 55px;
+}
+
+.button{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+	color: #000000;
+	font-family: Roboto;
 }
 
 .work{
@@ -11,6 +101,56 @@
 	border: 1px solid rgba(0, 1, 1, 0.1); 
 
 }
+
 .work:hover .pop{
 	display: block;
+}
+
+.big{
+	color: #000000;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.description{
+	color: #666666;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.red{
+	width: 200px;
+	height: 50px;
+	color: #ffffff;
+	background-color: #fb565a;
+
+}
+
+.contacts{
+	width: 1440px;
+	height: 416px;
+	background-image: url("img/background-map.jpeg");
+}
+
+.footer-adress{
+	background-image: url(img/background-map.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.main-footer{
+	display: flex;
+}
+
+.main-footer h2{
+	font-size: 36px;
+}
+
+.social-network{
+	background-image: url('img/icon-vk.svg');
 }

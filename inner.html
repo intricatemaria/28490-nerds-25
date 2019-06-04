@@ -2,11 +2,11 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/index-style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/inner-style.css" type="text/css"/>
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-  	<header class="main-header">
+  	  <header class="main-header">
 	  	<nav class="main-navigation">
 	  		<a class="main-header-logo" >
 	  			<img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип студии Нердс">
@@ -14,141 +14,140 @@
 	  	  	<ul class="site-navigation">
 		  		<li><a href="">Студия</li>
 		  		<li><a href="">Клиенты</a></li>
-		  		<li class="current"><a href="">Магазин</a></li>
+		  		<li><a href="">Магазин</a></li>
 		  		<li><a href="">Контакты</a></li>
 	  		</ul>
-	  		<ul class="cart-navigation">
-	  			<li class="cart-link">Корзина</li>
-	  		</ul>
+	  		<a class="cart-link" href="">Корзина</a>
 	  	</nav>
-	</header>
-	<h1>Магазин готовых шаблонов</h1>
-	<form class="filter" method="get" action="">
-		<fieldset>
-			<legend>Сетка:</legend>
-				<ul class="net">
+	  	<h1 align="center">Магазин готовых шаблонов</h1>
+	  </header>
+	<section class="center-block">
+		<div>
+			<form class="filter" method="get" action="">
+			<fieldset>
+				<legend>Сетка:</legend>
+					<ul class="net">
+						<li class="net-item">
+							<label>
+								<input type="radio" name="adaptive">
+							Адаптивная
+							</label>
+						</li>
 					<li class="net-item">
 						<label>
 							<input type="radio" name="adaptive">
-						Адаптивная
+							Фиксированная
 						</label>
 					</li>
-				<li class="net-item">
-					<label>
-						<input type="radio" name="adaptive">
-						Фиксированная
-					</label>
-				</li>
-				<li class="net-item">
-					<label>
-						<input type="radio" name="adaptive">
-						Резиновая
+					<li class="net-item">
+						<label>
+							<input type="radio" name="adaptive">
+							Резиновая
+							</label>
+						</li>
+				</ul>
+				<legend>Особенности:</legend>
+				<ul class="properties">
+					<li class="properties-item">
+						<label>
+							<input type="checkbox" name="properties">Слайдер
 						</label>
 					</li>
-			</ul>
-			<legend>Особенности:</legend>
-			<ul class="properties">
-				<li class="properties-item">
-					<label>
-						<input type="checkbox" name="properties">Слайдер
-					</label>
+					<li class="properties-item">
+						<label>
+							<input type="checkbox" name="properties">Блок преимуществ
+						</label>
+					</li>
+					<li class="properties-item">
+						<label>
+							<input type="checkbox" name="properties">Новости
+						</label>
+					</li>
+					<li class="properties-item">
+						<label>
+							<input type="checkbox" name="properties">Галерея
+						</label>
+					</li>	
+					<li class="properties-item">
+						<label>
+							<input type="checkbox" name="properties">Корзина
+						</label>
+					</li>											
+				</ul>
+			</fieldset>	
+			<a class="button" href="">Показать</a>
+		</div>
+		<div class="works">
+			<ul>
+				<li class="work">
+					<a class="layouts-item" href="">
+						<img class="maket" src="img/img-sedona.jpg" alt="sedona" width="360" height="576">
+						<span class="pop">
+							<p class="big" align="center">Sedona</p>
+							<p class="description" align="center">Информационный сайт для туристов</p>
+							<p class="red">9 900 руб.</p>					
+						</span>
+					</a>
 				</li>
-				<li class="properties-item">
-					<label>
-						<input type="checkbox" name="properties">Блок преимуществ
-					</label>
+				<li class="work">
+					<a class="layouts-item" href="">
+						<img class="maket" src="img/img-pink.jpg" alt="pink" width="360" height="576">
+						<span class="pop">
+							<p class="big">Pink App</p>
+							<p>Продуктовый лендинг приложения для iOS и Android</p>
+							<p class="red">9 900 руб.</p>					
+						</span>
+					</a>
 				</li>
-				<li class="properties-item">
-					<label>
-						<input type="checkbox" name="properties">Новости
-					</label>
+				<li class="work">
+					<a class="layouts-item" href="">
+						<img class="maket" src="img/img-barbershop.jpg" alt="borodiski" width="360" height="576">
+						<span class="pop">
+							<p class="big">Barbershop</p>
+							<p>Сайт салона красоты. Для мужчин, да.</p>
+							<p class="red">9 900 руб.</p>
+						</span>
+					</a>
 				</li>
-				<li class="properties-item">
-					<label>
-						<input type="checkbox" name="properties">Галерея
-					</label>
-				</li>	
-				<li class="properties-item">
-					<label>
-						<input type="checkbox" name="properties">Корзина
-					</label>
-				</li>											
-			</ul>
-		</fieldset>
-		<button class="grey">Показать</button>
+				<li class="work">
+					<a class="layouts-item" href="">
+						<img class="maket" src="img/img-mishka.jpg" alt="mishka" width="360" height="576">
+						<span class="pop">
+							<p class="big">MISHKA</p>
+							<p>Интернет-магазин вязаных игрушек</p>
+							<p class="red">9 900 руб.</p>	
+						</span>
+					</a>
+				</li>
+				<li class="work">
+					<a class="layouts-item" href="">
+						<img class="maket" src="img/img-aplus.jpg" alt="a+" width="360" height="576">
+						<span class="pop">
+							<p class="big">A Plus</p>
+							<p>Лендинг курсов повышения квалификации</p>
+							<p class="red">9 900 руб.</p>	
+						</span>
+					</a>
+				</li>
+				<li class="work">
+					<a class="layouts-item" href="">
+						<img class="maket" src="img/img-kvast.jpg" alt="kvast" width="360" height="576">
+						<span class="pop">
+							<p class="big">КВАСТ</p>
+							<p>Промо-сайт производителя крафтового кваса</p>
+							<p class="red">9 900 руб.</p>	
+						</span>
+					</a>
+				</li>
+			</ul>						
+			<nav>
+				<a class="button" href="">1</a>
+				<a class="button" href="">2</a>
+				<a class="button" href="">Следующая</a>			
+			</nav>	
+		</div>	
 	</section>
-	<section class="works">
-		<ul>
-			<li class="work">
-				<a class="layouts-item" href="">
-					<img class="maket" src="img/img-sedona.jpg" alt="sedona">
-					<span class="pop">
-						<p class="big">Sedona</p>
-						<p>Информационный сайт для туристов</p>
-						<a class="red">9 900 руб.</a>					
-					</span>
-				</a>
-			</li>
-			<li class="work">
-				<a class="layouts-item" href="">
-					<img class="maket" src="img/img-pink.jpg" alt="pink">
-					<span class="pop">
-						<p class="big">Pink App</p>
-						<p>Продуктовый лендинг приложения для iOS и Android</p>
-						<a class="red">9 900 руб.</a>					
-					</span>
-				</a>
-			</li>
-			<li class="work">
-				<a class="layouts-item" href="">
-					<img class="maket" src="img/img-barbershop.jpg" alt="borodiski">
-					<span class="pop">
-						<p class="big">Barbershop</p>
-						<p>Сайт салона красоты. Для мужчин, да.</p>
-						<a class="red">9 900 руб.</a>
-					</span>
-				</a>
-			</li>
-			<li class="work">
-				<a class="layouts-item" href="">
-					<img class="maket" src="img/img-mishka.jpg" alt="mishka">
-					<span class="pop">
-						<p class="big">MISHKA</p>
-						<p>Интернет-магазин вязаных игрушек</p>
-						<a class="red">9 900 руб.</a>	
-					</span>
-				</a>
-			</li>
-			<li class="work">
-				<a class="layouts-item" href="">
-					<img class="maket" src="img/img-aplus.jpg" alt="a+">
-					<span class="pop">
-						<p class="big">A Plus</p>
-						<p>Лендинг курсов повышения квалификации</p>
-						<a class="red">9 900 руб.</a>	
-					</span>
-				</a>
-			</li>
-			<li class="work">
-				<a class="layouts-item" href="">
-					<img class="maket" src="img/img-kvast.jpg" alt="kvast">
-					<span class="pop">
-						<p class="big">КВАСТ</p>
-						<p>Промо-сайт производителя крафтового кваса</p>
-						<a class="red">9 900 руб.</a>	
-					</span>
-				</a>
-			</li>
-		</ul>						
-		<nav>
-			<a class="button" href="">1</a>
-			<a class="button" href="">2</a>
-			<a class="button" href="">Следующая</a>			
-		</nav>
-	</section>
-	
 		<h2 class="visually-hidden">Контакты</h2>
-		<img class="map" src="" alt="map">
 		<div class="footer-adress">
 			<h4>NЁrds design studio</h4>
 			<address>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
@@ -167,16 +166,18 @@
 				</form>
 			</div>
 		</div>
-	<footer class="main-footer">
-		<div class="contacts">
+	</div>
+		<footer class="main-footer">
 			<ul>
-				<li><a class="social-network" href=""><img src="img/vk-icon.svg"></a></li>  
-				<li><a class="social-network" href=""><img src="img/fb-icon.svg"></a></li>  
-				<li><a class="social-network" href=""><img src="img/insta-icon.svg"></a></li> 
+				<li><a class="social-network" href="img/vk-icon.svg">VK</a></li>
+				<li><a class="social-network" href="">FB</a></li>  
+				<li><a class="social-network" href="">Instagram</a></li> 
 			</ul>
-			<p>Давайте дружить, это выгодно!</p>
-			<p>Скидка 10% для друзей из социальных сетей.</p>
-		</div>
-	</footer>
+			<div class="sale">
+				<h2>Давайте дружить, это выгодно!</h2>
+				<p>Скидка 10% для друзей из социальных сетей.</p>			
+			</div>
+
+		</footer>
   </body>
 </html>
