@@ -7,19 +7,22 @@
   </head>
   <body>
   	  <header class="main-header">
-	  	<nav class="main-navigation">
-	  		<a class="main-header-logo" >
-	  			<img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип студии Нердс">
-	  		</a>	
-	  	  	<ul class="site-navigation">
-		  		<li><a href="">Студия</li>
-		  		<li><a href="">Клиенты</a></li>
-		  		<li><a href="">Магазин</a></li>
-		  		<li><a href="">Контакты</a></li>
-	  		</ul>
-	  		<a class="cart-link" href="">Корзина</a>
-	  	</nav>
-	  	<h1 align="center">Магазин готовых шаблонов</h1>
+  	  	<div class="header-container">
+  	  		<nav class="main-navigation">
+		  		<a class="main-header-logo" >
+		  			<img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип студии Нердс">
+		  		</a>	
+		  	  	<ul class="site-navigation">
+			  		<li><a href="">Студия</li>
+			  		<li><a href="">Клиенты</a></li>
+			  		<li><a href="">Магазин</a></li>
+			  		<li><a href="">Контакты</a></li>
+		  		</ul>
+		  		<a class="cart-link" href="">Корзина</a>
+		  	</nav>
+	  		<h1 align="center">Магазин готовых шаблонов</h1>
+  	  	</div>
+
 	  </header>
 	<section class="center-block">
 		<div>
@@ -77,13 +80,13 @@
 			</fieldset>	
 			<a class="button" href="">Показать</a>
 		</div>
-		<div class="works">
-			<ul>
+		<div class="works-container">
+			<ul class="works">
 				<li class="work">
 					<a class="layouts-item" href="">
 						<img class="maket" src="img/img-sedona.jpg" alt="sedona" width="360" height="576">
 						<span class="pop">
-							<p class="big" align="center">Sedona</p>
+							<p class="big">Sedona</p>
 							<p class="description" align="center">Информационный сайт для туристов</p>
 							<p class="red">9 900 руб.</p>					
 						</span>
@@ -94,7 +97,7 @@
 						<img class="maket" src="img/img-pink.jpg" alt="pink" width="360" height="576">
 						<span class="pop">
 							<p class="big">Pink App</p>
-							<p>Продуктовый лендинг приложения для iOS и Android</p>
+							<p class="description">Продуктовый лендинг приложения для iOS и Android</p>
 							<p class="red">9 900 руб.</p>					
 						</span>
 					</a>
@@ -104,7 +107,7 @@
 						<img class="maket" src="img/img-barbershop.jpg" alt="borodiski" width="360" height="576">
 						<span class="pop">
 							<p class="big">Barbershop</p>
-							<p>Сайт салона красоты. Для мужчин, да.</p>
+							<p class="description">Сайт салона красоты. Для мужчин, да.</p>
 							<p class="red">9 900 руб.</p>
 						</span>
 					</a>
@@ -114,7 +117,7 @@
 						<img class="maket" src="img/img-mishka.jpg" alt="mishka" width="360" height="576">
 						<span class="pop">
 							<p class="big">MISHKA</p>
-							<p>Интернет-магазин вязаных игрушек</p>
+							<p class="description">Интернет-магазин вязаных игрушек</p>
 							<p class="red">9 900 руб.</p>	
 						</span>
 					</a>
@@ -124,7 +127,7 @@
 						<img class="maket" src="img/img-aplus.jpg" alt="a+" width="360" height="576">
 						<span class="pop">
 							<p class="big">A Plus</p>
-							<p>Лендинг курсов повышения квалификации</p>
+							<p class="description">Лендинг курсов повышения квалификации</p>
 							<p class="red">9 900 руб.</p>	
 						</span>
 					</a>
@@ -134,7 +137,7 @@
 						<img class="maket" src="img/img-kvast.jpg" alt="kvast" width="360" height="576">
 						<span class="pop">
 							<p class="big">КВАСТ</p>
-							<p>Промо-сайт производителя крафтового кваса</p>
+							<p class="description">Промо-сайт производителя крафтового кваса</p>
 							<p class="red">9 900 руб.</p>	
 						</span>
 					</a>
@@ -156,19 +159,19 @@
 			<h2>Напишите нам</h2>
 			<div class="form">
 				<form method="post" action="/action_page.php">
-				    <label for="fname">Ваше имя</label>
-				    <input type="text" id="fname" name="firstname" placeholder="Имя Фамилия">
-				    <label for="letter">Текст письма</label>
-				    <input type="text" id="letter" name="letter" placeholder="В свободной форме">
-				    <label for="e-mail">Ваш e-mail</label>
-				    <input type="text" id="e-mail" name="e-mail" placeholder="email@example.com">
+				    <label class="form-label" for="fname">Ваше имя</label>
+				    <input class="form-input" type="text" id="fname" name="firstname" placeholder="Имя Фамилия">
+				    <label class="form-label" for="letter">Текст письма</label>
+				    <input class="form-input" type="text" id="letter" name="letter" placeholder="В свободной форме">
+				    <label class="form-label" for="e-mail">Ваш e-mail</label>
+				    <input class="form-input"55 type="text" id="e-mail" name="e-mail" placeholder="email@example.com">
 				    <input type="submit" value="Отправить">
 				</form>
 			</div>
 		</div>
 	</div>
 		<footer class="main-footer">
-			<ul>
+			<ul class="social-networks">
 				<li><a class="social-network" href="img/vk-icon.svg">VK</a></li>
 				<li><a class="social-network" href="">FB</a></li>  
 				<li><a class="social-network" href="">Instagram</a></li> 
